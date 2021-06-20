@@ -145,6 +145,7 @@ function getNeighbors() {
             }
 
             //Diagonals have a distance of Sqrt(2)
+            /*
             if(validate(i+1, j+1)) {
                 neighbors.set(grid.matrix[i+1][j+1], Math.sqrt(2));
             }
@@ -157,6 +158,7 @@ function getNeighbors() {
             if(validate(i-1, j+1)) {
                 neighbors.set(grid.matrix[i-1][j+1], Math.sqrt(2));
             }     
+            */
      
             graph.set(grid.matrix[i][j], neighbors);
         }
